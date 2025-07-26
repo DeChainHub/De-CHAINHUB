@@ -87,6 +87,8 @@ button[type="submit"] {
   font-size: 0.875rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-family: inherit;
+  margin: 0;
+  box-sizing: border-box;
 
   &:focus {
     outline: none;

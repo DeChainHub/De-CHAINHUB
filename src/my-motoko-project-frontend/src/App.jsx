@@ -120,7 +120,7 @@ function App() {
             onChange={(e) => setCommitMessage(e.target.value)}
             className="textarea"
             placeholder="e.g., Added new feature for user authentication&#10;&#10;- Implemented JWT token validation&#10;- Added password encryption&#10;- Updated user schema"
-            rows="4"
+            rows="5"
             required
           />
         </div>
