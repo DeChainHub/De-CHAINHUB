@@ -16,7 +16,7 @@ To build the first fully on-chain system for version control, module deployment,
 
 ---
 
-### 🔗 ICP Integration Highlights:
+### ICP Integration Highlights:
 - Each module is a fully autonomous canister.
 - Commit validation and deploy authorization handled via native chain-key cryptography (no external wallets required).
 - Repository changes and governance actions are logged directly on-chain, accessible to the frontend without bridges.
