@@ -1,0 +1,5 @@
+{
+  "buildCommand": "curl -fsSL https://sdk.dfinity.org/install.sh | DFX_VERSION=0.15.2 sh && export PATH=\"$HOME/bin:$PATH\" && dfx generate && npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "dist"
+}
