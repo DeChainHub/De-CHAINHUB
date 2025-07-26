@@ -5,10 +5,10 @@ ChainHub ICP is an on-chain GitHub for Web3 + DePIN: modular, sovereign, and DAO
 
 ## Phase 1 – Initial Proposal (Hackathon Submission)
 
-### 🎯 Objective:
+### Objective:
 To build the first fully on-chain system for version control, module deployment, and code governance within the Internet Computer (ICP) ecosystem. We’re using interconnected canisters and chain-key cryptography to ensure true modularity, interoperability, and decentralized control over physical infrastructure (IoT / DePIN).
 
-### 🧩 Modules Presented in Phase 1:
+### Modules Presented in Phase 1:
 - **CanisterRepo** – On-chain registry and versioning of repositories (Merkle-tree-based commit history).
 - **CanisterModules** – ABIs, APIs, and endpoints registered as reusable and callable modules across other canisters or nodes.
 - **GovernanceCore** – Basic DAO contract (token-based voting) for managing merges, forks, and structural upgrades.
@@ -23,7 +23,7 @@ To build the first fully on-chain system for version control, module deployment,
 
 ---
 
-### ✅ Expected Deliverables for Phase 1:
+### Expected Deliverables for Phase 1:
 - A working repo with all four core canisters (written in Motoko or Rust).
 - A functional demo that allows creating a repo, managing modules, triggering a governance vote, and deploying a test update.
 - A clear architecture diagram and a scaling roadmap for multi-device/multi-DAO interaction.
@@ -32,10 +32,10 @@ To build the first fully on-chain system for version control, module deployment,
 
 ## Phase 2 – MVP for Full Hackathon Execution (4 Weeks)
 
-### 🎯 Objective:
+### Objective:
 To bring ChainHub ICP into a usable state for DAOs and DePIN/IoT developers. The MVP will include full governance flows, modular UI, active deployment across nodes, and syncing between physical devices and on-chain modules.
 
-### 🧩 MVP Modules:
+### MVP Modules:
 - **DeviceRegistryCanister** – Validated registration of physical devices and sensors as autonomous actors.
 - **KillSwitchModule** – Distributed kill switch triggerable by DAO vote or manual override (via physical interface or ICP trigger).
 - **ABI/Commit/Deploy Sync** – Cross-canister module that handles commit propagation and update orchestration.
@@ -43,14 +43,14 @@ To bring ChainHub ICP into a usable state for DAOs and DePIN/IoT developers. The
 
 ---
 
-### 💡 Example Use Cases:
+### Example Use Cases:
 - A DAO managing firmware updates for drone fleets or climate monitoring stations.
 - A university lab teaching contract governance using real-time canister updates and ChainHub voting.
 - An edge network of physical nodes using ChainHub to sync firmware or AI models—without relying on GitHub or Web2 infra.
 
 ---
 
-## ⚙️ ICP Tech Stack
+## ICP Tech Stack
 
 | Layer            | Tools Used                              |
 |------------------|------------------------------------------|
@@ -62,7 +62,7 @@ To bring ChainHub ICP into a usable state for DAOs and DePIN/IoT developers. The
 
 ---
 
-## 🌍 Impact & Vision
+## Impact & Vision
 
 - **Full decentralization of the code lifecycle** — from commit to deploy — visible, verifiable, and governed entirely on-chain.
 - **Direct application in DePIN ecosystems** — syncing logic, commands, and state across machines, smart contracts, and sensor networks without relying on centralized coordination or off-chain infra.
